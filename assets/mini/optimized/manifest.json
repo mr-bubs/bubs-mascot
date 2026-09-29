@@ -1,0 +1,24 @@
+{
+  "character": "Mr Bubs",
+  "version": 1,
+  "grid": [3, 3],
+  "tileSize": 280,
+  "atlases": {
+    "directions": {
+      "file": "bubs-directions.webp",
+      "order": [
+        "up-left", "up", "up-right",
+        "left", "center", "right",
+        "down-left", "down", "down-right"
+      ]
+    },
+    "reactions": {
+      "file": "bubs-reactions.webp",
+      "order": [
+        "neutral", "happy", "excited",
+        "surprised", "thinking", "annoyed",
+        "nervous", "sleepy", "playful"
+      ]
+    }
+  }
+}
