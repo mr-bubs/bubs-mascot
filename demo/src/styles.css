@@ -175,10 +175,25 @@ h1 {
 }
 
 .bubs {
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+  touch-action: manipulation;
   filter:
     drop-shadow(0 22px 24px rgba(0, 0, 0, 0.40))
     drop-shadow(0 0 34px rgba(185, 151, 255, 0.12));
   transition: filter 180ms ease;
+}
+
+.bubs:focus,
+.bubs:active {
+  outline: none;
+  background: transparent;
+}
+
+.bubs:focus-visible {
+  outline: 2px solid rgba(127, 225, 211, 0.55);
+  outline-offset: 8px;
+  border-radius: 18px;
 }
 
 .bubs:hover {
