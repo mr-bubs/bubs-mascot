@@ -1,0 +1,12 @@
+{
+  "name": "@mr-bubs/page-mascot",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "peerDependencies": {
+    "react": ">=18"
+  },
+  "dependencies": {
+    "page-mascot": "^1.0.0"
+  }
+}
